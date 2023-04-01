@@ -8,6 +8,6 @@ public class Solution {
             result.append(arraySentence[i]);
             result.append(" ");
         }
-        return String.valueOf(result).trim();
+        return result.toString().trim();
     }
 }
